@@ -57,10 +57,20 @@ export const Services = () => {
       <div className="service-category" data-aos="fade-right">
         <h3 className="service-title">Casas prefabricadas</h3>
         <ul className="service-list">
-        <li>Diseño y planificación personalizada para casas de madera.</li>
-        <li>Fabricación y montaje de módulos prefabricados con madera de alta calidad.</li>
-        <li>Instalación de acabados interiores y exteriores, incluyendo suelos y revestimientos.</li>
-        <li>Asesoramiento completo en materiales y técnicas de construcción sostenible.</li>
+          <li>Diseño y planificación personalizada para casas de madera.</li>
+          <li>Fabricación y montaje de módulos prefabricados con madera de alta calidad.</li>
+          <li>Instalación de acabados interiores y exteriores, incluyendo suelos y revestimientos.</li>
+          <li>Asesoramiento completo en materiales y técnicas de construcción sostenible.</li>
+        </ul>
+      </div>
+
+      <div className="service-category" data-aos="fade-right">
+        <h3 className="service-title">Técnicos en Climatización</h3>
+        <ul className="service-list">
+          <li>Preinstalación de sistemas de aire acondicionado en viviendas y naves industriales.</li>
+          <li>Instalación completa de equipos de aire acondicionado y sistemas de ventilación.</li>
+          <li>Mantenimiento y reparación de unidades de climatización.</li>
+          <li>Asesoramiento en eficiencia energética y selección de equipos adecuados.</li>
         </ul>
       </div>
 
