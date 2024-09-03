@@ -1,0 +1,88 @@
+.Header{
+    background: linear-gradient(to bottom, rgb(72, 62, 27), rgb(72, 62, 26));
+    color: rgb(231, 209, 89);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: default;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.logo{
+    height: 130px;
+}
+.selection{
+    text-decoration: none;
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(72, 62, 27), rgb(72, 62, 26));
+    display: flex;
+    flex-direction: arrow;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    position: relative;
+    padding: 5px 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.selection a {
+    background: linear-gradient(to bottom, rgb(72, 62, 27), rgb(72, 62, 26));
+    text-decoration: none;
+    color: rgb(231, 209, 89);
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    padding: 5px 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+.selection a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(231, 209, 89);
+    transition: width 0.3s ease;
+  }
+  
+.selection a:hover::before {
+    width: 100%;
+  }
+  
+  .selection a:hover {
+    color: #f4e16e;
+    transform: translateY(-2px);
+  }
+
+  @media (max-width: 765px) {
+    .Header {
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 5px;
+    }
+  
+    .logo {
+      height: 90px;
+      margin-left: 50px;
+    }
+  
+    .selection {
+      flex-direction: column;
+    }
+  
+    .selection a {
+      font-size: 16px;
+      padding: 5px 0;
+    }
+  
+    .selection a::before {
+      height: 1px;
+    }
+  }
