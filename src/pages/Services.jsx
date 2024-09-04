@@ -64,7 +64,7 @@ export const Services = () => {
         </ul>
       </div>
 
-      <div className="service-category" data-aos="fade-right">
+      <div className="service-category" data-aos="fade-left">
         <h3 className="service-title">Técnicos en Climatización</h3>
         <ul className="service-list">
           <li>Preinstalación de sistemas de aire acondicionado en viviendas y naves industriales.</li>
@@ -74,7 +74,7 @@ export const Services = () => {
         </ul>
       </div>
 
-      <div className="service-category" data-aos="fade-left">
+      <div className="service-category" data-aos="fade-right">
         <h3 className="service-title">Trabajos verticales</h3>
         <ul className="service-list">
           <li>Nuestros expertos  proporcionan acabados impecables y duraderos para cualquier superficie vertical. </li>
